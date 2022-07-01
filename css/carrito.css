@@ -1,0 +1,90 @@
+body{
+    font-family: Arial;
+    font-size: 2px;
+}
+.contenedor-input{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sinborde {
+    border-color: black;
+  /*background-color: red;*/
+}
+
+.input-70{
+    width: 69%;
+    font-size: 14px;
+}
+
+.input-30{
+    width: 29%;
+    font-size: 14px;
+}
+
+.input-50{
+    width: 50%;
+    font-size: 14px;
+}
+.chalinoIzq {
+    display:inline-block;width:75%;text-align:left;overflow:hidden;text-overflow: ellipsis;vertical-align:middle;
+}
+.chalinoDer{
+    display:inline-block;width:24%;height:100%;vertical-align:middle;text-align: right;
+}
+.chalinoIzqu {
+    display:inline-block;width:75%;text-align:left;overflow:hidden;text-overflow: ellipsis;vertical-align:middle;
+}
+.chalinoDere{
+    display:inline-block;width:24%;height:100%;vertical-align:middle;text-align: right;
+}
+@media screen and (max-width: 510px){
+    #contplat{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .chalinoIzq {
+        display: inline-block;
+        width:65%;
+    }
+    .chalinoDer{
+        display: inline-block;
+        width:33%;
+    } 
+    .chalinoIzqu {
+        display: inline-block;
+        width:60%;
+    }
+    .chalinoDere{
+        display: inline-block;
+        width:38%;
+    }
+}
+
+
+
+@media screen and (max-width:414px){
+   .input-70{
+        width: 100%;
+        font-size: 12px;
+    }
+    .nombre{
+         font-size:12px;
+        
+    }
+
+    .input-30{
+        width: 100%;
+    }
+    .d20{
+        width: 20%;
+    }
+    .d80{
+        width: 80%;
+    }
+}

@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: arial;
+    background: #373737;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+}
+.alert{
+    position:relative;
+    padding:.75rem 1.25rem;
+    margin-bottom:1rem;
+    border:1px solid transparent;
+    border-radius:.25rem;
+      
+}
+.alert-danger{
+    color:#721c24;
+    background-color:#f8d7da;
+    border-color:#f5c6cb
+}
+.alert-success{
+    color:#155724;
+    background-color:#d4edda;
+    border-color:#c3e6cb
+}
+.form-register{
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+}
+
+.form-titulo{
+    background: #00528b!important;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size:  30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid #007A33!important;
+}
+
+.contenedor-input{
+    padding: 100px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border:  1px solid darkgray;
+}
+select{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border:  1px solid darkgray;
+}
+
+.input-48{
+    width: 48%;
+}
+
+.input-100{
+    width: 100%;
+}
+
+.btn-enviar{
+    background:  #32940a;
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size:  20px;
+}
+.btn-cancelar{
+    background:  red;
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size:  20px;
+}
+.btn{
+    background:  #32940a;
+    color: #fff;
+    margin: auto;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size:  20px;
+    padding: 5px;
+    top: 5px;
+    
+}
+.btn-warning{
+    color:#212529;
+    background-color:#ffc107;
+    border-color:#ffc107
+}
+
+.btn-enviar:active{
+    transform: scale(1.05);
+}
+
+.form-link{
+    width: 100%;
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media screen and (max-width:380px){
+    .input-48{
+        width: 100%;
+    }
+
+}

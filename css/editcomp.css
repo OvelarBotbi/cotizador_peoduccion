@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body{
+    margin: 0;
+    font-family: arial;
+    background: #373737;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.letra{
+    font-size: 13px;
+    
+}
+
+.letr{
+    font-size: 15px;
+    
+}
+
+.alert{
+    position:relative;
+    padding:.75rem 1.25rem;
+    margin-bottom:1rem;
+    border:1px solid transparent;
+    border-radius:.25rem
+}
+.alert-danger{
+    color:#721c24;
+    background-color:#f8d7da;
+    border-color:#f5c6cb
+}
+.alert-success{
+    color:#155724;
+    background-color:#d4edda;
+    border-color:#c3e6cb
+}
+.form-register{
+    width: 95%;
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+}
+
+.form-registerr{
+    width: 95%;
+    max-width: 750px;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+}
+.form-titulo{
+    background: #00528b!important;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size:  30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid #007A33!important;
+}
+
+.contenedor-input{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border:  1px solid darkgray;
+}
+select{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border:  1px solid darkgray;
+}
+
+.input-48{
+    width: 48%;
+}
+
+.input-100{
+    width: 100%;
+}
+.input-30{
+    width: 30%;
+}
+.input-70{
+    width: 70%;
+}
+.btn-enviara{
+    background:  #32940a;
+    color: #fff;
+    margin: 0;
+    padding: 10px 10px;
+    cursor: pointer; 
+}
+.btn-enviar{
+    background:  #32940a;
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size:  20px;
+}
+
+.btn-enviar:active{
+    transform: scale(1.05);
+}
+.btn-regresar{
+    background:  #f4f800;
+    color: #fff;
+    margin: 0;
+    padding: 10px 10px;
+    cursor: pointer; 
+}
+.btn-regresar:active{
+    transform: scale(1.05);
+}
+.btn{display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}
+.btn-warning{color:#212529;background-color:#ffc107;border-color:#ffc107}
+
+.btn-enviarr{
+    background:  #32940a;
+    color: #fff;
+    cursor: pointer;
+    font-size:  20px;
+    width: 15px;
+}
+
+.btn-enviarr:active{
+    transform: scale(1.05);
+}
+.btn-cancelarr{
+    background:  red;
+    color: #fff;
+    cursor: pointer;
+    font-size:  20px;
+    width: 15px;
+}
+.btn-cancelarr:active{
+    transform: scale(1.05);
+}
+
+
+
+.btn-cancelar{
+    background:  red;
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size:  20px;
+}
+.btn-cancelar:active{
+    transform: scale(1.05);
+}
+.form-link{
+    width: 100%;
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.verdesito{
+    background-color: #e6e2e2;
+}
+.verdesitoo{
+    background-color: #c0c4bd;
+}
+.table-striped tbody tr:nth-of-type(odd){background-color:rgba(0,0,0,.05)}
+.table-striped tbody tr:nth-of-type(odd){background-color:rgba(255,255,255,.05)}
+.table{border-collapse:collapse}caption{padding-top:.75rem;padding-bottom:.75rem;color:#6c757d;text-align:left;caption-side:bottom}th{text-align:inherit}
+
+.table{width:100%;margin-bottom:1rem;color:#212529}.table td,.table th{padding:.75rem;vertical-align:top;border-top:1px solid #dee2e6}.table thead th{vertical-align:bottom;border-bottom:2px solid #dee2e6}.table tbody+tbody{border-top:2px solid #dee2e6}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:380px){
+    .input-48{
+        width: 100%;
+    }
+    
+    
+
+}

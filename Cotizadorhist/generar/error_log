@@ -1,0 +1,20 @@
+[28-Aug-2019 18:32:16 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/generar-pdf-cliente.php on line 12
+[28-Aug-2019 18:32:16 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/generar-pdf-cliente.php on line 16
+[28-Aug-2019 18:32:16 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/generar-pdf-cliente.php on line 17
+[28-Aug-2019 18:32:16 UTC] PHP Notice:  Undefined variable: iduss in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/generar-pdf-cliente.php on line 24
+[28-Aug-2019 18:32:24 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/gen.php on line 10
+[28-Aug-2019 18:32:24 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/gen.php on line 14
+[28-Aug-2019 18:32:24 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/gen.php on line 15
+[28-Aug-2019 18:32:24 UTC] PHP Notice:  Undefined variable: iduss in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/gen.php on line 22
+[28-Aug-2019 18:34:14 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/gen.php on line 10
+[28-Aug-2019 18:34:14 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/gen.php on line 14
+[28-Aug-2019 18:34:14 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/gen.php on line 15
+[28-Aug-2019 18:34:14 UTC] PHP Notice:  Undefined variable: iduss in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/gen.php on line 22
+[28-Aug-2019 18:34:17 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/generar-pdf-cliente.php on line 12
+[28-Aug-2019 18:34:17 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/generar-pdf-cliente.php on line 16
+[28-Aug-2019 18:34:17 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/generar-pdf-cliente.php on line 17
+[28-Aug-2019 18:34:17 UTC] PHP Notice:  Undefined variable: iduss in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/generar-pdf-cliente.php on line 24
+[28-Aug-2019 18:34:25 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/gen.php on line 10
+[28-Aug-2019 18:34:25 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/gen.php on line 14
+[28-Aug-2019 18:34:25 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/gen.php on line 15
+[28-Aug-2019 18:34:25 UTC] PHP Notice:  Undefined variable: iduss in /home/svkmykzmvc6m/public_html/cotizador/Cotizadorhist/generar/gen.php on line 22

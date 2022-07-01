@@ -1,0 +1,12 @@
+.contorno {
+    background-color: #00528A;
+    height: 500px;
+    width: 500px;
+}
+
+.cuadrito {
+    background-color: #00528A;
+    color: white;
+    padding: 15px;
+    font: Times;
+}
